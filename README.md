@@ -25,3 +25,11 @@ appear in the File->Import submenu.
 (usually on the left) before starting the import.
 
 3) Profit.
+
+Hacking note
+============
+
+The upstream Blender3D devs will sometimes make subtle changes to the source
+in order to keep the plugin working with Blender Python API changes in new
+versions of Blender3D. These should be merged before starting to hack on the
+plugin.
